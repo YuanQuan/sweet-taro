@@ -1,0 +1,22 @@
+button {
+    background: none;
+    border-radius: 0;
+    border-color: rgba(0, 0, 0, 0);
+    padding: 0;
+    /*TODO react*/
+    /*display: inline-block;*/
+    line-height: unset;
+}
+
+button::after {
+    border: none;
+    background: none;
+    line-height: unset;
+}
+
+x-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

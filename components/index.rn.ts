@@ -1,0 +1,1 @@
+export {default as XText} from './xText/index.rn';
